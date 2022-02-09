@@ -1,15 +1,14 @@
 from datetime import datetime, timedelta
-from imp import get_magic
 from math import ceil, floor
 from time import time
+from telegram.ext import Updater, CommandHandler, CallbackContext
+from apscheduler.schedulers.background import BackgroundScheduler
+
 import pytz
 import telegram
 import json
 import ccxt
 import os
-
-from telegram.ext import Updater, MessageHandler, CommandHandler, CallbackContext
-from apscheduler.schedulers.background import BackgroundScheduler
 
 class Exchanger:
     def __init__(self):
