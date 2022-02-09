@@ -114,7 +114,7 @@ class Bot:
     def __init__(self):
         self.memory = Memory()
 
-        self.token = os.environ.get("bot-token")
+        self.token = "5125175714:AAHvLoIAlfCVfe1mHjNnT_WKmFneACSbUlQ"
 
         self.bot = telegram.Bot(self.token)
         self.updater = Updater(self.token)
