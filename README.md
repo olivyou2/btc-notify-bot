@@ -2,6 +2,7 @@
 이평선을 통한 매수-매도 타이밍을 텔레그램 봇으로 notify
 
 ## How to get started
+#### Get started with docker
 ~~~~bash
 docker build -t "mabot" .
 
